@@ -1,0 +1,654 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    box-sizing: border-box; 
+}
+.home
+{
+    display: grid;
+    grid-template-columns: 70px 1370px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1440px;
+    height: 896px
+
+}
+aside 
+{
+    grid-column: 1/2;
+    background-color: #333333;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+aside > a, aside > p 
+{
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Horizontally center content */
+    margin: 5px 0; /* Add some margin for spacing */
+}
+aside > a > img 
+{
+    width: 24px;
+    height: 24px;
+    top: 411.08px;
+    left: 23px;
+}
+aside > p {
+    margin: 50px; /* Remove default margin */
+    width: 95px;
+    height: 36px;
+    top: 551.86px;
+    left: 17px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.container {
+
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.07);
+    z-index: -3;
+}
+.rectangle
+{
+    position: absolute;
+    width: 272.06px;
+    height: 896.56px;
+    left: 782.94px;
+    z-index: -1;
+
+}
+.watermark {
+    
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    font-size: 212px;
+    font-weight: 900;
+    line-height: 318px;
+    color: #FFFFFF;
+    color: rgba(250, 248, 248, 1); /* Adjust opacity as needed */
+    z-index: -2;
+}
+.top
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 268.968px 627.592px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1370px;
+    height: 896.56px;
+
+}
+.top > .clean
+{
+    grid-column: 1;
+    grid-row: 1;
+    width: 238px;
+    height: 91px;
+    top: 15.51px;
+    left: 87.11px;
+    margin: 20px;
+
+}
+.bar
+{
+    display: grid;
+    justify-self: end;
+    margin: 40px;
+}
+.dis
+{
+    grid-row: 2;
+    
+}
+.card-body1
+{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+}
+.cardTop > .card-body1 > .card-title1
+{
+    width: 600px;
+    height: 144px;
+    top: 240.08px;
+    left: 80.61px;
+    
+    align-self: center;
+    
+
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px;
+
+}
+.cardTop > .card-body1 > .card-text1
+{
+    width: 651.53px;
+    height: 151.57px;
+    top: 418.86px;
+    left: 80.61px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px;
+}
+.cardTop > .card-body1 > .price
+{
+    width: 250px;
+    height: 42px;
+    top: 602.7px;
+    left: 80.61px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px;
+
+}
+.pic1 {
+    display: grid;
+    justify-content: center; /* Align content horizontally */
+    align-items: center; /* Align items vertically */
+    grid-column: 2; /* Place the container in the second column */
+    grid-row: span 2; /* Merge two rows */
+}
+.pic1 > img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container's height */
+}
+.latestFeature
+{
+    padding: 50px;
+    width: 1440px;
+}
+.intro
+{
+    display: flex;
+    gap: 100px;
+}
+.intro > .h1
+{
+    flex: 1;
+    width: 885px;
+    height: 128px;
+    top: 1029.21px;
+    left: 80.21px;
+    margin-bottom: 50px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.button
+{
+    position: relative;
+    padding-right: 3%;
+}
+button
+{
+    width: 216px;
+    height: 72px;
+    top: 1052.52px;
+    left: 1143px;
+    border-radius: 2px;
+    background-color: white;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card
+{
+    flex: 1;
+    min-width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+    margin: 20px;
+}
+.card-title
+{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding:  0 15px 15px 0;
+}
+.card-text
+{
+    padding:  15px 15px 15px 0;
+}
+.card > p
+{
+    padding:  15px 15px 15px 0;
+    color: black;
+    font-style: bold;
+}
+.view
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1440px;
+    height: 1008px;
+    top: 1808.2px;
+    background-color: #333333;
+}
+.heading
+{
+    grid-column: 1/ span2;
+    text-align: center;
+    align-self: center; /* Align text vertically in the middle */
+    justify-self: center; /* Center align text horizontally within the grid cell */
+    color: #A1A0A1;
+}
+.heading > h1
+{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.pic
+{
+    width: 534px;
+    height: 363px;
+    top: 2190.66px;
+    left: 74.89px;
+    padding-top: 100px;
+    align-self:first baseline;
+    justify-self: center;
+ 
+}
+.spec > p
+{
+    display: flex;
+    padding: 13px 0px 13px 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.spec > p > big
+{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F4F4F4;
+}
+.spec > p > big > img
+{
+    width: 24px;
+    height: 24px;
+    top: 2296.66px;
+    left: 1117px;
+    border: 1px;
+    margin: 5px 5px 5px 10px;
+    cursor:grab;
+}
+.exchange
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 2fr) 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1440px;
+} 
+.discount
+{
+    justify-self: center;
+    align-self: center;
+    margin-top: 100px;
+    width: 780px;
+    height: 168px;
+    top: 2901.5px;
+    left: 330px;
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.para
+{
+    display: flex;
+    align-self: center;
+    width: 1064px;
+    height: 151.57px;
+    top: 3098.09px;
+    left: 188px;
+    justify-self: center;
+    
+    
+}
+.para > p
+{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.buy
+{
+    display: grid;
+}
+.btn
+{
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 192px;
+    height: 57.47px;
+    top: 3269.98px;
+    left: 624px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.contact
+{
+    width: 1440px;
+    height: 1018px;
+    top: 3416.77px;
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+
+}
+.containerOne
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 2fr) 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1440px;
+}
+.details
+{
+    justify-self: center;
+    align-self:first center;
+}
+.details > input
+{
+    /* margin-left: 20px; */
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 407.96px;
+    height: 40px;
+    top: 3733.05px;
+    left: 298.92px;
+    color: #A1A0A1;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+.mail
+{
+    margin-left: 22px;
+}
+.details > .down
+{
+    width: 843.22px;
+    top: 3801.34px;
+    left: 298.92px;
+
+}
+input::placeholder
+{
+    width: 150px;
+    height: 36px;
+    top: 3689.67px;
+    left: 298.92px;
+
+    color: #A1A0A1;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.mail::placeholder
+{
+    width: 180px;
+    height: 36px;
+    top: 3689.67px;
+    left: 733.61px;
+}
+.down::placeholder
+{
+    width: 179px;
+    height: 36px;
+    top: 3826.02px;
+    left: 298.92px;
+
+}
+.submit
+{
+    grid-row: 3;
+    display: grid;
+}
+.submit > .btn
+{
+    border-color: #FFFFFF;
+    border-width: 1px;
+}
+.containerTwo
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 1440px;
+}
+.copyright
+{
+    display: grid;
+    justify-self: center;
+    margin: 20px;
+    color: #FFFFFF;
+}
+.copyright > .clean
+{
+    justify-self: center;
+    align-self: self-end;
+    width: 238px;
+    height: 91px;
+    top: 4154.11px;
+    left: 80px;
+    color: #FFFFFF;
+
+}
+.content
+{
+    width: 192px;
+    height: 48px;
+    top: 4249.11px;
+    left: 80px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.contactDetails
+{
+    display: grid;
+    
+    justify-self: center;
+    margin: 20px;
+    color: #FFFFFF;
+    
+}
+.contactDetails > .top1
+{
+    width: 99px;
+    height: 36px;
+    top: 4155.11px;
+    left: 407.68px;
+
+    align-self:self-end;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.contactDetails > .down1
+{
+    width: 212px;
+    height: 120px;
+    top: 4208.78px;
+    left: 406.68px;
+    align-self: center;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.socialMedia
+{
+    display: grid;
+    justify-self: center;
+    margin: 20px;
+    color: #FFFFFF;
+}
+.multi
+{
+    display: grid;
+    
+}
+.multi > p
+{
+    width: 553.79px;
+    height: 36px;
+    top: 4158.04px;
+    left: 733.48px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    justify-self: self-start;
+    align-self: self-end;
+}
+.para1
+{
+    display: grid;
+}
+.para1 > p
+{
+    width: 625px;
+    height: 48px;
+    top: 4221.49px;
+    left: 733.45px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    justify-self: self-start;
+    align-self: center;
+}
+.icon
+{
+    display: flex;
+}
+.icon > a
+{
+    display: grid;
+    width: 36px;
+    height: 36px;
+    top: 4303.32px;
+    left: 733.39px;
+
+    background-color: #FFFFFF;
+    margin: 10px;
+
+    border-radius: 50%;
+}
+.icon > a > img
+{
+    justify-self: center;
+    align-self: center;
+}
